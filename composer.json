@@ -1,17 +1,21 @@
 {
-    "name": "innmind/server-status",
+    "name": "campanda/server-status",
     "type": "library",
     "description": "Library to access various components of the operating system",
-    "homepage": "http://github.com/Innmind/ServerStatus",
+    "homepage": "http://github.com/campanda/ServerStatus",
     "license": "MIT",
     "authors": [
         {
             "name": "Baptiste Langlade",
             "email": "langlade.baptiste@gmail.com"
+        },
+        {
+            "name": "Helmut Hoffer von Ankershoffen",
+            "email": "hhva@campanda.com"
         }
     ],
     "support": {
-        "issues": "http://github.com/Innmind/ServerStatus/issues"
+        "issues": "http://github.com/campanda/ServerStatus/issues"
     },
     "require": {
         "php": "~7.1",
@@ -21,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Innmind\\Server\\Status\\": "src/"
+            "Campanda\\Server\\Status\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Innmind\\Server\\Status\\": "tests/"
+            "Tests\\Campanda\\Server\\Status\\": "tests/"
         }
     },
     "require-dev": {
