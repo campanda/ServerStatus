@@ -2,7 +2,7 @@
     "name": "campanda/server-status",
     "type": "library",
     "description": "Library to access various components of the operating system",
-    "homepage": "http://github.com/campanda/ServerStatus",
+    "homepage": "http://github.com/campanda/server-status",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/campanda/ServerStatus/issues"
+        "issues": "http://github.com/campanda/server-status/issues"
     },
     "require": {
         "php": "~7.1",
