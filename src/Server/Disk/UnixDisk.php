@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Disk;
+namespace Campanda\Server\Status\Server\Disk;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Disk,
     Server\Disk\Volume\MountPoint,
     Server\Disk\Volume\Usage,

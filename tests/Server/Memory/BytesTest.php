@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Memory;
+namespace Tests\Campanda\Server\Status\Server\Memory;
 
-use Innmind\Server\Status\Server\Memory\Bytes;
+use Campanda\Server\Status\Server\Memory\Bytes;
 use PHPUnit\Framework\TestCase;
 
 class BytesTest extends TestCase
@@ -20,7 +20,7 @@ class BytesTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\BytesCannotBeNegative
+     * @expectedException Campanda\Server\Status\Exception\BytesCannotBeNegative
      */
     public function testThrowWhenNegative()
     {
@@ -39,7 +39,7 @@ class BytesTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\UnknownBytesFormat
+     * @expectedException Campanda\Server\Status\Exception\UnknownBytesFormat
      */
     public function testThrowWhenUnknownFormat()
     {
@@ -48,7 +48,7 @@ class BytesTest extends TestCase
 
     /**
      * @dataProvider invalidStrings
-     * @expectedException Innmind\Server\Status\Exception\UnknownBytesFormat
+     * @expectedException Campanda\Server\Status\Exception\UnknownBytesFormat
      */
     public function testThrowWhenStringTooShort($string)
     {

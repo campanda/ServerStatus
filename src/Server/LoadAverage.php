@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server;
+namespace Campanda\Server\Status\Server;
 
-use Innmind\Server\Status\Exception\LoadAverageCannotBeNegative;
+use Campanda\Server\Status\Exception\LoadAverageCannotBeNegative;
 
 final class LoadAverage
 {

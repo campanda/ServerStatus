@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status;
+namespace Campanda\Server\Status;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Servers\OSX,
     Servers\Linux,
     Exception\UnsupportedOperatingSystem

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server;
+namespace Tests\Campanda\Server\Status\Server;
 
-use Innmind\Server\Status\Server\LoadAverage;
+use Campanda\Server\Status\Server\LoadAverage;
 use PHPUnit\Framework\TestCase;
 
 class LoadAverageTest extends TestCase
@@ -18,7 +18,7 @@ class LoadAverageTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\LoadAverageCannotBeNegative
+     * @expectedException Campanda\Server\Status\Exception\LoadAverageCannotBeNegative
      */
     public function testThrowWhenNegativeLastMinuteLoad()
     {
@@ -26,7 +26,7 @@ class LoadAverageTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\LoadAverageCannotBeNegative
+     * @expectedException Campanda\Server\Status\Exception\LoadAverageCannotBeNegative
      */
     public function testThrowWhenNegativeLastFiveMinuteLoad()
     {
@@ -34,7 +34,7 @@ class LoadAverageTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\LoadAverageCannotBeNegative
+     * @expectedException Campanda\Server\Status\Exception\LoadAverageCannotBeNegative
      */
     public function testThrowWhenNegativeLastFifteenMinuteLoad()
     {

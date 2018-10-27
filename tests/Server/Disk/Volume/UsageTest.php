@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Disk\Volume;
+namespace Tests\Campanda\Server\Status\Server\Disk\Volume;
 
-use Innmind\Server\Status\Server\Disk\Volume\Usage;
+use Campanda\Server\Status\Server\Disk\Volume\Usage;
 use PHPUnit\Framework\TestCase;
 
 class UsageTest extends TestCase
@@ -17,7 +17,7 @@ class UsageTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\OutOfBoundsPercentage
+     * @expectedException Campanda\Server\Status\Exception\OutOfBoundsPercentage
      */
     public function testThrowWhenUsageLowerThanZero()
     {
@@ -25,7 +25,7 @@ class UsageTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\OutOfBoundsPercentage
+     * @expectedException Campanda\Server\Status\Exception\OutOfBoundsPercentage
      */
     public function testThrowWhenUsageHigherThanHundred()
     {

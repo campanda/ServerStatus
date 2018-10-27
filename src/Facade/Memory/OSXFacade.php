@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Facade\Memory;
+namespace Campanda\Server\Status\Facade\Memory;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Memory,
     Server\Memory\Bytes,
     Exception\MemoryUsageNotAccessible

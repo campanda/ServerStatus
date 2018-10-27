@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Disk;
+namespace Tests\Campanda\Server\Status\Server\Disk;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Disk\UnixDisk,
     Server\Disk,
     Server\Disk\Volume,

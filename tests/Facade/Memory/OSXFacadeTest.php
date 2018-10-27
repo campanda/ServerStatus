@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Facade\Memory;
+namespace Tests\Campanda\Server\Status\Facade\Memory;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Facade\Memory\OSXFacade,
     Server\Memory,
     Exception\MemoryUsageNotAccessible

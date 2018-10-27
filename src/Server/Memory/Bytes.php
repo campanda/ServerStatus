@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Memory;
+namespace Campanda\Server\Status\Server\Memory;
 
-use Innmind\Server\Status\Exception\{
+use Campanda\Server\Status\Exception\{
     BytesCannotBeNegative,
     UnknownBytesFormat
 };

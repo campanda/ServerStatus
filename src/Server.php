@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status;
+namespace Campanda\Server\Status;
 
-use Innmind\Server\Status\Server\{
+use Campanda\Server\Status\Server\{
     Cpu,
     Memory,
     Processes,

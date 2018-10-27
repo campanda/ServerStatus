@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Servers\Decorator;
+namespace Tests\Campanda\Server\Status\Servers\Decorator;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Servers\Decorator\CacheCpu,
     Server,
     Server\Cpu,

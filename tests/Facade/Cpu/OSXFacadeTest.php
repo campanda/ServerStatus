@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Facade\Cpu;
+namespace Tests\Campanda\Server\Status\Facade\Cpu;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Facade\Cpu\OSXFacade,
     Server\Cpu,
     Exception\CpuUsageNotAccessible

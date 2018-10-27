@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Facade\LoadAverage;
+namespace Tests\Campanda\Server\Status\Facade\LoadAverage;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Facade\LoadAverage\PhpFacade,
     Server\LoadAverage
 };

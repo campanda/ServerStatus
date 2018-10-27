@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Process;
+namespace Tests\Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Server\Process\Memory;
+use Campanda\Server\Status\Server\Process\Memory;
 use PHPUnit\Framework\TestCase;
 
 class MemoryTest extends TestCase
@@ -17,7 +17,7 @@ class MemoryTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\OutOfBoundsPercentage
+     * @expectedException Campanda\Server\Status\Exception\OutOfBoundsPercentage
      */
     public function testThrowWhenMemoryLowerThanZero()
     {
@@ -25,7 +25,7 @@ class MemoryTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\OutOfBoundsPercentage
+     * @expectedException Campanda\Server\Status\Exception\OutOfBoundsPercentage
      */
     public function testThrowWhenMemoryHigherThanHundred()
     {

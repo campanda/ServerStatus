@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Process;
+namespace Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Exception\EmptyCommandNotAllowed;
+use Campanda\Server\Status\Exception\EmptyCommandNotAllowed;
 
 final class Command
 {

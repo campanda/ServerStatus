@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Disk\Volume;
+namespace Tests\Campanda\Server\Status\Server\Disk\Volume;
 
-use Innmind\Server\Status\Server\Disk\Volume\MountPoint;
+use Campanda\Server\Status\Server\Disk\Volume\MountPoint;
 use PHPUnit\Framework\TestCase;
 
 class MountPointTest extends TestCase
@@ -16,7 +16,7 @@ class MountPointTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\EmptyPathNotAllowed
+     * @expectedException Campanda\Server\Status\Exception\EmptyPathNotAllowed
      */
     public function testThrowWhenEmptyMountPoint()
     {

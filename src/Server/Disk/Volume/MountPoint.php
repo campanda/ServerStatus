@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Disk\Volume;
+namespace Campanda\Server\Status\Server\Disk\Volume;
 
-use Innmind\Server\Status\Exception\EmptyPathNotAllowed;
+use Campanda\Server\Status\Exception\EmptyPathNotAllowed;
 
 final class MountPoint
 {

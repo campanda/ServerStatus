@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Processes;
+namespace Campanda\Server\Status\Server\Processes;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Processes,
     Server\Process,
     Server\Process\Pid,

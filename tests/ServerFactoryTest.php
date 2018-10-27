@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status;
+namespace Tests\Campanda\Server\Status;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     ServerFactory,
     Server,
     Exception\UnsupportedOperatingSystem

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Process;
+namespace Tests\Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Server\Process\Command;
+use Campanda\Server\Status\Server\Process\Command;
 use PHPUnit\Framework\TestCase;
 
 class CommandTest extends TestCase
@@ -16,7 +16,7 @@ class CommandTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\EmptyCommandNotAllowed
+     * @expectedException Campanda\Server\Status\Exception\EmptyCommandNotAllowed
      */
     public function testThrowWhenEmptyCommand()
     {

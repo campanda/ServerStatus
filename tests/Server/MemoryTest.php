@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server;
+namespace Tests\Campanda\Server\Status\Server;
 
-use Innmind\Server\Status\Server\{
+use Campanda\Server\Status\Server\{
     Memory,
     Memory\Bytes
 };

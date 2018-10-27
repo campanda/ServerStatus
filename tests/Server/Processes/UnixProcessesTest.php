@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Processes;
+namespace Tests\Campanda\Server\Status\Server\Processes;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Processes\UnixProcesses,
     Server\Processes,
     Server\Process,

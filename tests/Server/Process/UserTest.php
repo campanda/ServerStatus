@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Process;
+namespace Tests\Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Server\Process\User;
+use Campanda\Server\Status\Server\Process\User;
 use PHPUnit\Framework\TestCase;
 
 class UserTest extends TestCase
@@ -16,7 +16,7 @@ class UserTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\EmptyUserNotAllowed
+     * @expectedException Campanda\Server\Status\Exception\EmptyUserNotAllowed
      */
     public function testThrowWhenEmptyUser()
     {

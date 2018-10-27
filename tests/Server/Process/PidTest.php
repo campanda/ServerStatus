@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Tests\Innmind\Server\Status\Server\Process;
+namespace Tests\Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Server\Process\Pid;
+use Campanda\Server\Status\Server\Process\Pid;
 use PHPUnit\Framework\TestCase;
 
 class PidTest extends TestCase
@@ -17,7 +17,7 @@ class PidTest extends TestCase
     }
 
     /**
-     * @expectedException Innmind\Server\Status\Exception\LowestPidPossibleIsOne
+     * @expectedException Campanda\Server\Status\Exception\LowestPidPossibleIsOne
      */
     public function testThrowWhenPidTooLow()
     {

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Cpu;
+namespace Campanda\Server\Status\Server\Cpu;
 
-use Innmind\Server\Status\Exception\OutOfBoundsPercentage;
+use Campanda\Server\Status\Exception\OutOfBoundsPercentage;
 
 final class Percentage
 {

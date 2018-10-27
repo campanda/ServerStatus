@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Facade\Cpu;
+namespace Campanda\Server\Status\Facade\Cpu;
 
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     Server\Cpu,
     Server\Cpu\Percentage,
     Exception\CpuUsageNotAccessible

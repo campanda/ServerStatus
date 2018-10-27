@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace Innmind\Server\Status\Server\Process;
+namespace Campanda\Server\Status\Server\Process;
 
-use Innmind\Server\Status\Exception\OutOfBoundsPercentage;
+use Campanda\Server\Status\Exception\OutOfBoundsPercentage;
 
 final class Memory
 {

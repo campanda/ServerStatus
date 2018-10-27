@@ -19,7 +19,7 @@ composer require innmind/server-status
 ## Usage
 
 ```php
-use Innmind\Server\Status\{
+use Campanda\Server\Status\{
     ServerFactory,
     Server\Disk\Volume\MountPoint,
     Server\Process\Pid
