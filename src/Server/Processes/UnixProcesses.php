@@ -21,6 +21,7 @@ use Innmind\Immutable\{
     Sequence,
     Map
 };
+use Stringy\StaticStringy;
 use Symfony\Component\Process\Process as SfProcess;
 
 final class UnixProcesses implements Processes
@@ -63,7 +64,7 @@ final class UnixProcesses implements Processes
 
     private function run(string $command): Str
     {
-        $process = new SfProcess($command);
+        $process = new SfProcess('export LC_TIME=\'en_EN.UTF-8\'; '.$command);
         $process->run();
 
         if (!$process->isSuccessful()) {
